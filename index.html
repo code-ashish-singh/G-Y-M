@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G-Y-M</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="min-h-screen">
+      <!-- here is the navBar -->
+
+      <nav class="h-[5vw] flex px-10 justify-between border-b-2 border-black">
+        <div class="">
+          <img class="h-[5vw]" src="./asset/G-Y-M.png" alt="" />
+        </div>
+        <ul class="flex justify-start gap-10 items-center w-3/4 text-[1.6vw]">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Program</a></li>
+          <li><a href="">Trainers</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <div class="flex justify-end items-center">
+          <button class="px-3 text-white bg-purple-900 h-10 rounded-full">
+            Sign-in
+          </button>
+        </div>
+      </nav>
+
+      <!-- here is Hero section -->
+
+      <section
+        class="w-full min-h-[90vh] px-10 flex justify-center items-center bg-linear-to-b from-white to-purple-400"
+      >
+        <div class="w-1/2 flex justify-center items-start flex-col gap-4">
+          <h5 class="text-[2.4vw] font-bold">
+            Transform Your Body <br />
+            <span class="text-purple-900 text-[2.4vw] font-bold"
+              >Transform Your Life</span
+            >
+          </h5>
+          <p class="text-gray-700">
+            Welcome to our gym where strength meets dedication. Whether you want
+            to build muscle, lose weight, or improve your fitness, we provide
+            the best training environment and professional guidance to help you
+            achieve your goals.
+          </p>
+          <div class="">
+            <button
+              class="px-3 text-white bg-purple-900 h-10 rounded-full hover:bg-"
+            >
+              Get Started
+            </button>
+            <button class="px-3 text-black border-1 h-10 rounded-full">
+              Our Product
+            </button>
+          </div>
+        </div>
+        <div class="w-1/2">
+          <img src="asset/hero-img.png" alt="" />
+        </div>
+      </section>
+
+      <!-- here is Gym Excellence Section-->
+
+      <section
+        class="w-full px-10 text-center flex justify-center items-center flex-col mt-8"
+      >
+        <h5 class="text-2xl font-bold">Redefining Fitness Excellence</h5>
+        <p class="w-3/4 text-gray-600 mt-4">
+          We believe fitness should be accessible, motivating, and effective for
+          everyone. Our gym focuses on providing the best training experience
+          with professional guidance and a supportive environment.
+        </p>
+        <div class="w-full flex justify-between items-center `1">
+          <div
+            class="bg-gray-200 text-left w-[28vw] flex flex-col gap-3 pt-10 px-3 mt-10 rounded min-h-[12vw] relative"
+          >
+            <h4
+              class="absolute -top-4 left-4 bg-blue-500 size-[2.5vw] flex justify-center items-center rounded"
+            >
+              ⚡
+            </h4>
+            <h5 class="font-semibold text-[1.5vw]">Fast Progress Training</h5>
+            <p>
+              Our workout programs are designed to help you achieve results
+              faster and more effectively.
+            </p>
+          </div>
+          <div
+            class="bg-gray-200 text-left w-[28vw] flex flex-col gap-3 pt-10 px-3 mt-10 rounded min-h-[12vw] relative"
+          >
+            <h4
+              class="absolute -top-4 left-4 bg-red-500 size-[2.5vw] flex justify-center items-center rounded"
+            >
+              🌱
+            </h4>
+            <h5 class="font-semibold text-[1.5vw]">Healthy Lifestyle</h5>
+            <p>
+              We promote healthy habits that improve both physical and mental
+              well-being.
+            </p>
+          </div>
+          <div
+            class="bg-gray-200 text-left w-[28vw] flex flex-col gap-3 pt-10 px-3 mt-10 rounded min-h-[12vw] relative"
+          >
+            <h4
+              class="absolute -top-4 left-4 bg-green-500 size-[2.5vw] flex justify-center items-center rounded"
+            >
+              👨‍🏫
+            </h4>
+            <h5 class="font-semibold text-[1.5vw]">Expert Trainers</h5>
+            <p>
+              Our certified trainers guide you with proper techniques and
+              personalized plans.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Commitment Section -->
+
+      <section
+        class="w-full px-10 text-center flex justify-center items-center flex-col mt-10"
+      >
+        <h5 class="text-2xl font-bold">Our Fitness Commitment</h5>
+        <p class="w-3/4 text-gray-600 mt-4">
+          We are committed to helping every member achieve their fitness goals
+          through proper training, motivation, and a supportive gym environment.
+        </p>
+        <div class="flex m-2">
+          <div
+            class="flex justify-center text-left items-start flex-col bg-gray-200 px-3 m-2 h-[15vw] rounded-lg"
+          >
+            <div class="flex justify-end w-full">
+              <div
+                class="size-[3vw] flex justify-center items-center rounded-[50%] bg-white"
+              >
+                <i
+                  class="fa-solid fa-dumbbell text-[1.8vw] text-brown-900 text-zinc-800"
+                ></i>
+              </div>
+            </div>
+            <h2 class="font-semibold text-[1.5vw]">Strength Training</h2>
+            <p>
+              Build muscle strength and improve overall body power with guided
+              strength workouts and modern gym equipment.
+            </p>
+          </div>
+          <div
+            class="flex justify-center text-left items-start flex-col bg-gray-200 px-3 m-2 h-[15vw] rounded-lg"
+          >
+            <div class="flex justify-end w-full">
+              <div
+                class="size-[3vw] flex justify-center items-center rounded-[50%] bg-white"
+              >
+                <i class="fa-solid fa-fire text-[1.8vw] text-yellow-600"></i>
+              </div>
+            </div>
+            <h2 class="font-semibold text-[1.5vw]">Weight Loss Programs</h2>
+            <p>
+              Our fat-burning workout programs help you lose weight effectively
+              while maintaining a healthy and active lifestyle.
+            </p>
+          </div>
+          <div
+            class="flex justify-center text-left items-start flex-col bg-gray-200 p-3 m-2 h-[15vw] rounded-lg"
+          >
+            <div class="flex justify-end w-full">
+              <div
+                class="size-[3vw] flex justify-center items-center rounded-[50%] bg-white"
+              >
+                <i
+                  class="fa-solid fa-heart-pulse text-[1.8vw] text-red-600"
+                ></i>
+              </div>
+            </div>
+            <h2 class="font-semibold text-[1.5vw]">Cardio Training</h2>
+            <p>
+              Improve your heart health and stamina with high-energy cardio
+              workouts like running, cycling, and HIIT training.
+            </p>
+          </div>
+          <div
+            class="flex justify-center text-left items-start flex-col bg-gray-200 p-3 m-2 h-[15vw] rounded-lg"
+          >
+            <div class="flex justify-end w-full">
+              <div
+                class="size-[3vw] flex justify-center items-center rounded-[50%] bg-white"
+              >
+                <i class="fa-solid fa-medal text-[1.8vw] text-yellow-400"></i>
+              </div>
+            </div>
+            <h2 class="font-semibold text-[1.5vw]">Body Transformation</h2>
+            <p>
+              Achieve your dream physique with structured workout routines
+              designed for long-term body transformation.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex m-2">
+          <div
+            class="flex justify-center text-left items-start flex-col bg-gray-200 px-3 m-2 h-[15vw] rounded-lg"
+          >
+            <div class="flex justify-end w-full">
+              <div
+                class="size-[3vw] flex justify-center items-center rounded-[50%] bg-white"
+              >
+                <i
+                  class="fa-solid fa-person-running text-[1.8vw] text-orange-800"
+                ></i>
+              </div>
+            </div>
+            <h2 class="font-semibold text-[1.5vw]">Flexibility Training</h2>
+            <p>
+              Enhance flexibility, mobility, and balance through stretching
+              exercises and functional training.
+            </p>
+          </div>
+          <div
+            class="flex justify-center text-left items-start flex-col bg-gray-200 px-3 m-2 h-[15vw] rounded-lg"
+          >
+            <div class="flex justify-end w-full">
+              <div
+                class="size-[3vw] flex justify-center items-center rounded-[50%] bg-white"
+              >
+                <i
+                  class="fa-solid fa-apple-whole text-[1.8vw] text-red-800"
+                ></i>
+              </div>
+            </div>
+            <h2 class="font-semibold text-[1.5vw]">Nutrition Guidance</h2>
+            <p>
+              Our trainers provide simple nutrition tips and diet guidance to
+              support your fitness progress.
+            </p>
+          </div>
+          <div
+            class="flex justify-center text-left items-start flex-col bg-gray-200 p-3 m-2 h-[15vw] rounded-lg"
+          >
+            <div class="flex justify-end w-full">
+              <div
+                class="size-[3vw] flex justify-center items-center rounded-[50%] bg-white"
+              >
+                <i class="fa-solid fa-users text-[1.8vw] text-black"></i>
+              </div>
+            </div>
+            <h2 class="font-semibold text-[1.5vw]">Community Motivation</h2>
+            <p>
+              Train with a community that motivates and supports each other to
+              stay consistent and disciplined.
+            </p>
+          </div>
+          <div
+            class="flex justify-center text-left items-start flex-col bg-gray-200 p-3 m-2 h-[15vw] rounded-lg"
+          >
+            <div class="flex justify-end w-full">
+              <div
+                class="size-[3vw] flex justify-center items-center rounded-[50%] bg-white"
+              >
+                <i
+                  class="fa-solid fa-calendar-check text-[1.8vw] text-blue-900"
+                ></i>
+              </div>
+            </div>
+            <h2 class="font-semibold text-[1.5vw]">Consistency Focus</h2>
+            <p>
+              We help members stay consistent with structured workout plans and
+              regular progress tracking.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Behind The Training -->
+
+      <section
+        class="w-full px-10 text-center flex justify-center items-center flex-col mt-10 bg-gray-200 p-3"
+      >
+        <h5 class="text-2xl font-bold">Behind The Training</h5>
+        <p class="w-3/4 text-gray-600 mt-4">
+          Take a look at how our trainers plan workouts, monitor progress, and
+          support members to achieve their fitness goals.
+        </p>
+        <div class="flex justify-around w-full m-10">
+          <div class="size-[23vw] rounded-[18px] relative">
+            <img
+              class="size-[23vw] object-center rounded-[18px]"
+              src="asset/workout-plan.png"
+              alt=""
+            />
+            <div
+              class="size-[23vw] absolute bg-black opacity-50 top-0 rounded-[18px]"
+            ></div>
+            <h4
+              class="text-left absolute bottom-23 text-white p-3 text-[1.8vw] font-semibold"
+            >
+              Workout Planning
+            </h4>
+            <p class="text-left absolute bottom-4 text-white p-3 text-[]">
+              Our trainers guide you during workouts to maintain the correct
+              form and prevent injuries.
+            </p>
+          </div>
+          <div class="size-[23vw] relative rounded-[18px]">
+            <img
+              class="size-[23vw] object-center rounded-[18px]"
+              src="asset/workout-growth.png"
+              alt=""
+            />
+            <div
+              class="size-[23vw] absolute bg-black opacity-50 top-0 rounded-[18px]"
+            ></div>
+            <h4
+              class="text-left absolute bottom-23 text-white p-3 text-[1.8vw] font-semibold"
+            >
+              Progress Tracking
+            </h4>
+            <p class="text-left absolute bottom-4 text-white p-3 text-[]">
+              Our trainers guide you during workouts to maintain the correct
+              form and prevent injuries.
+            </p>
+          </div>
+          <div class="size-[23vw] rounded-[18px] relative">
+            <img
+              class="size-[23vw] object-center rounded-[18px]"
+              src="asset/workout-guied.png"
+              alt=""
+            />
+            <div
+              class="size-[23vw] absolute bg-black opacity-50 top-0 rounded-[18px]"
+            ></div>
+            <h4
+              class="text-left absolute bottom-23 text-white p-3 text-[1.8vw] font-semibold"
+            >
+              Personal Guidance
+            </h4>
+            <p class="text-left absolute bottom-4 text-white p-3 text-[]">
+              Our trainers guide you during workouts to maintain the correct
+              form and prevent injuries.
+            </p>
+          </div>
+        </div>
+        <div>
+          <button class="px-4 text-white bg-purple-900 h-10 rounded-full">
+            Watch Out Story
+          </button>
+        </div>
+      </section>
+
+      <!-- Meet Our Expert Trainers -->
+
+      <section
+        class="w-full px-10 text-center flex justify-center items-center flex-col mt-10"
+      >
+        <h5 class="text-2xl font-bold">Meet Our Expert Trainers</h5>
+        <p class="w-3/4 text-gray-600 mt-4">
+          Our professional fitness coaches bring years of experience, passion,
+          and dedication to help you achieve your health and fitness goals.
+        </p>
+        <div class="mt-10 flex justify-center gap-3">
+          <div class="h-[23vw] w-[20vw] border-1 rounded-[10px]">
+            <div class="h-[10vw] w-full flex justify-center mt-4">
+              <img
+                class="object-center size-[10vw] rounded-[50%]"
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+                alt=""
+              />
+            </div>
+            <h1 class="font-semibold text-2xl">Alex Carter</h1>
+            <p>
+              Alex specializes in strength training and muscle building. With
+              over 10 years of experience.
+            </p>
+            <div class="w-full flex justify-center gap-4 mt-4">
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-facebook-f  "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-twitter "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-linkedin-in  "></i>
+              </div>
+              
+              
+
+              <!-- -->
+            </div>
+          </div>
+
+          <div class="h-[23vw] w-[20vw] border-1 rounded-[10px]">
+            <div class="h-[10vw] w-full flex justify-center mt-4">
+              <img
+                class="object-center size-[10vw] rounded-[50%]"
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
+                alt=""
+              />
+            </div>
+            <h1 class="font-semibold text-2xl">Michael Lee</h1>
+            <p>
+             Michael designs advanced strength and conditioning programs for athletes and fitness enthusiasts .
+            </p>
+            <div class="w-full flex justify-center gap-4 mt-4">
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-facebook-f  "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-twitter "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-linkedin-in  "></i>
+              </div>
+              
+              
+
+              <!-- -->
+            </div>
+          </div>
+
+          <div class="h-[23vw] w-[20vw] border-1 rounded-[10px]">
+            <div class="h-[10vw] w-full flex justify-center mt-4">
+              <img
+                class="object-center size-[10vw] rounded-[50%]"
+                src="https://images.unsplash.com/photo-1506863530036-1efeddceb993?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
+                alt=""
+              />
+            </div>
+            <h1 class="font-semibold text-2xl">Emily Johnson</h1>
+            <p>
+             Emily helps members create balanced nutrition plans that support their workouts
+            </p>
+            <div class="w-full flex justify-center gap-4 mt-4">
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-facebook-f  "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-twitter "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-linkedin-in  "></i>
+              </div>
+              
+              
+
+              <!-- -->
+            </div>
+          </div>
+
+          <div class="h-[23vw] w-[20vw] border-1 rounded-[10px]">
+            <div class="h-[10vw] w-full flex justify-center mt-4">
+              <img
+                class="object-center size-[10vw] rounded-[50%]"
+                src="https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
+                alt=""
+              />
+            </div>
+            <h1 class="font-semibold text-2xl">Daniel Smith</h1>
+            <p>
+             Daniel provides one-on-one training sessions focusing on weight loss, endurance.
+            </p>
+            <div class="w-full flex justify-center gap-4 mt-4">
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-facebook-f  "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-twitter "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-linkedin-in  "></i>
+              </div>
+              
+              
+
+              <!-- -->
+            </div>
+          </div>
+        </div>
+        <div class="mt-10 flex justify-center gap-3">
+          <div class="h-[23vw] w-[20vw] border-1 rounded-[10px]">
+            <div class="h-[10vw] w-full flex justify-center mt-4">
+              <img
+                class="object-center size-[10vw] rounded-[50%]"
+                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
+                alt=""
+              />
+            </div>
+            <h1 class="font-semibold text-2xl">Sophia Brown</h1>
+            <p>
+              Sophia specializes in functional training programs that improve daily movement.
+            </p>
+            <div class="w-full flex justify-center gap-4 mt-4">
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-facebook-f  "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-twitter "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-linkedin-in  "></i>
+              </div>
+              
+              
+
+              <!-- -->
+            </div>
+          </div>
+
+          <div class="h-[23vw] w-[20vw] border-1 rounded-[10px]">
+            <div class="h-[10vw] w-full flex justify-center mt-4">
+              <img
+                class="object-center size-[10vw] rounded-[50%]"
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
+                alt=""
+              />
+            </div>
+            <h1 class="font-semibold text-2xl">Sarah Williams</h1>
+            <p>
+              Sarah focuses on flexibility, balance, and mindfulness through yoga.
+            </p>
+            <div class="w-full flex justify-center gap-4 mt-4">
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-facebook-f  "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-twitter "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-linkedin-in  "></i>
+              </div>
+              
+              
+
+              <!-- -->
+            </div>
+          </div>
+
+          <div class="h-[23vw] w-[20vw] border-1 rounded-[10px]">
+            <div class="h-[10vw] w-full flex justify-center mt-4">
+              <img
+                class="object-center size-[10vw] rounded-[50%]"
+                src="https://plus.unsplash.com/premium_photo-1693258698597-1b2b1bf943cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
+                alt=""
+              />
+            </div>
+            <h1 class="font-semibold text-2xl">Ryan Miller</h1>
+            <p>
+              Ryan is an expert in high-intensity interval training and cardio workouts. 
+            </p>
+            <div class="w-full flex justify-center gap-4 mt-4">
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-facebook-f  "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-twitter "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-linkedin-in  "></i>
+              </div>
+              
+              
+
+              <!-- -->
+            </div>
+          </div>
+
+          <div class="h-[23vw] w-[20vw] border-1 rounded-[10px]">
+            <div class="h-[10vw] w-full flex justify-center mt-4">
+              <img
+                class="object-center size-[10vw] rounded-[50%]"
+                src="https://plus.unsplash.com/premium_photo-1688740375397-34605b6abe48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
+                alt=""
+              />
+            </div>
+            <h1 class="font-semibold text-2xl">Olivia Davis</h1>
+            <p>
+              Olivia focuses on building sustainable healthy habits through balanced workouts.
+            </p>
+            <div class="w-full flex justify-center gap-4 mt-4">
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-facebook-f  "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-twitter "></i>
+              </div>
+              <div class=" rounded-[50%] border-1 size-[2vw]">
+                 <i class="fab fa-linkedin-in  "></i>
+              </div>
+              
+              
+
+              <!-- -->
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </body>
+</html>
