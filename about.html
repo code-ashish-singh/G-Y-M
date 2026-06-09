@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — G-Y-M</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .page-wrap { padding-top: 72px; min-height: 100vh; }
+    .page-hero {
+      padding: 80px 5% 60px;
+      background: var(--dark2);
+      position: relative; overflow: hidden;
+    }
+    .page-hero::before {
+      content: 'WHY';
+      position: absolute; right: -2%; top: 50%; transform: translateY(-50%);
+      font-family: 'Bebas Neue', sans-serif; font-size: 20vw;
+      color: rgba(255,255,255,0.02); letter-spacing: -10px; pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">G<span>-</span>Y<span>-</span>M</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="programs.html">Programs</a></li>
+    <li><a href="trainers.html">Trainers</a></li>
+    <li><a href="pricing.html">Pricing</a></li>
+    <li><a href="bmiCal.html">BMI</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="pricing.html" class="nav-cta">Join Now</a>
+  <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<div class="mobile-nav" id="mobile-nav">
+  <a href="index.html"    onclick="closeMobileNav()">Home</a>
+  <a href="about.html"    onclick="closeMobileNav()">About</a>
+  <a href="programs.html" onclick="closeMobileNav()">Programs</a>
+  <a href="trainers.html" onclick="closeMobileNav()">Trainers</a>
+  <a href="pricing.html"  onclick="closeMobileNav()">Pricing</a>
+  <a href="bmiCal.html"   onclick="closeMobileNav()">BMI</a>
+  <a href="contact.html"  onclick="closeMobileNav()">Contact</a>
+</div>
+
+<div class="page-wrap">
+  <!-- ABOUT -->
+  <section id="about" style="background:var(--dark2); position:relative; overflow:hidden;">
+    <div class="section-tag">About Us</div>
+    <h2 class="section-title">Redefining <span>Fitness</span><br>Excellence</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <span class="feature-icon">⚡</span>
+        <div class="feature-title">Fast Progress Training</div>
+        <p class="feature-desc">Data-driven workout programs designed to deliver visible results faster than conventional methods. Every rep, every set, optimized for maximum efficiency.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🌱</span>
+        <div class="feature-title">Healthy Lifestyle</div>
+        <p class="feature-desc">We go beyond the gym floor. Our holistic approach promotes habits that elevate your physical and mental wellbeing for a balanced, fulfilling life.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🏆</span>
+        <div class="feature-title">Expert Trainers</div>
+        <p class="feature-desc">Certified professionals with years of real-world experience. Personalized plans, proper technique guidance, and the accountability you need to succeed.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🔬</span>
+        <div class="feature-title">Science-Backed Methods</div>
+        <p class="feature-desc">Every program is built on proven exercise science. No fads, no guesswork — just research-backed methods that deliver consistent, measurable results.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🤝</span>
+        <div class="feature-title">Community Support</div>
+        <p class="feature-desc">Train alongside a community of motivated individuals. Shared goals, mutual encouragement, and an environment that pushes everyone to be their best.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">📊</span>
+        <div class="feature-title">Progress Tracking</div>
+        <p class="feature-desc">Regular assessments and detailed progress tracking to ensure you're always moving forward. Adjust, optimize, and celebrate every milestone on your journey.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process">
+    <div class="section-tag">How It Works</div>
+    <h2 class="section-title">Behind The <span>Training</span></h2>
+    <div class="process-grid">
+      <div class="process-card">
+        <div class="process-step">📋</div>
+        <h3>Workout Planning</h3>
+        <p>Our trainers create a personalized plan based on your goals, fitness level, and schedule — built for maximum efficiency from day one.</p>
+      </div>
+      <div class="process-card">
+        <div class="process-step">📈</div>
+        <h3>Progress Tracking</h3>
+        <p>Regular assessments and measurements ensure your plan stays calibrated to your evolving fitness, keeping you on the fastest path forward.</p>
+      </div>
+      <div class="process-card">
+        <div class="process-step">🎯</div>
+        <h3>Personal Guidance</h3>
+        <p>Your trainer guides every session — correcting form, preventing injury, and pushing you beyond the limits you set for yourself.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-name">G<span>-</span>Y<span>-</span>M</div>
+      <p class="footer-desc">Where strength meets dedication. Your best self is one workout away. Join the community that transforms lives every single day.</p>
+      <div class="footer-socials">
+        <a href="#" class="footer-social">f</a>
+        <a href="#" class="footer-social">in</a>
+        <a href="#" class="footer-social">tw</a>
+        <a href="#" class="footer-social">ig</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Quick Links</div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Programs</div>
+      <ul class="footer-links">
+        <li><a href="programs.html">Strength Training</a></li>
+        <li><a href="programs.html">Weight Loss</a></li>
+        <li><a href="programs.html">Cardio Training</a></li>
+        <li><a href="programs.html">Yoga &amp; Flexibility</a></li>
+        <li><a href="programs.html">HIIT Training</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Tools &amp; Legal</div>
+      <ul class="footer-links">
+        <li><a href="bmiCal.html">BMI Calculator</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Cookie Policy</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 G-Y-M. All rights reserved.</span>
+    <span>Designed with 💪 for champions</span>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/motion@10.16.4/dist/motion.js"></script>
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+  const { animate } = Motion;
+
+  gsap.from('.feature-card', { scrollTrigger: { trigger: '.features-grid', start: 'top 75%' }, x: -50, opacity: 0, duration: 0.7, stagger: 0.1, ease: 'power3.out' });
+  gsap.from('.process-card', { scrollTrigger: { trigger: '.process-grid',   start: 'top 75%' }, y: 50,  opacity: 0, duration: 0.7, stagger: 0.15, ease: 'back.out(1.3)' });
+  gsap.from('.section-title', { scrollTrigger: { trigger: '#about', start: 'top 80%' }, clipPath: 'inset(0 100% 0 0)', opacity: 0, duration: 0.9, ease: 'power3.out' });
+
+  document.querySelectorAll('.feature-card').forEach(card => {
+    card.addEventListener('mouseenter', () => animate(card, { scale: 1.03, translateY: -6 }, { duration: 0.3, easing: [0.34,1.56,0.64,1] }));
+    card.addEventListener('mousemove', e => {
+      const r = card.getBoundingClientRect();
+      animate(card, { rotateY: ((e.clientX-r.left)/r.width-0.5)*14, rotateX: -((e.clientY-r.top)/r.height-0.5)*14 }, { duration: 0.08, easing: 'linear' });
+    });
+    card.addEventListener('mouseleave', () => animate(card, { scale: 1, translateY: 0, rotateX: 0, rotateY: 0 }, { duration: 0.4 }));
+  });
+
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', window.scrollY > 60));
+  document.getElementById('hamburger').addEventListener('click', () => document.getElementById('mobile-nav').classList.toggle('open'));
+  function closeMobileNav() { document.getElementById('mobile-nav').classList.remove('open'); }
+</script>
+</body>
+</html>
